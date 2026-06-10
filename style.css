@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
+*{
+  font-family: "Kiwi Maru", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body,html{
+  margin: 0;
+  height: 100%;
+}
+body{
+  box-sizing: border-box;
+  background-color: #ffda33;
+  display:fixed;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.all{
+  width: 800px;
+  max-width: 100%;
+  background-color: #ffda33;
+  padding: 30px 50px 50px 50px;
+  border-radius: 10px;
+  top:2000px;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+}
+.container .col{
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 5px solid #ffda33;
+  box-sizing: border-box;
+  width: 25%;
+  border-radius: 15px;
+  color: #3F5D45;
+  font-size: 48px;
+}
+.container .col.main{
+  flex: 1 1 100%;
+  width: 50%;
+  font-size: 90px;
+}
+.navbar-nav{
+  margin-left:100px;
+  color: #3F5D45;
+  font-size: 25px;
+}
+.row{
+  display:flex;
+}
+.container mt-3{
+  position: relative;
+}
+.runningpic{
+  padding-top:50px;
+}
+.card{
+  top:690px;
+}
+
+
+.dvd {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  border-radius: 100%;
+  background: red;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
